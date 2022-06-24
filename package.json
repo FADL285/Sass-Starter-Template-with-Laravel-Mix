@@ -1,0 +1,40 @@
+{
+  "name": "sass-starter-template-with-laravel-mix",
+  "version": "1.0.0",
+  "description": "An HTML, Sass, and JS web app starter template using Laravel Mix.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "format": "prettier --config .prettierrc ./src/**/*.js --write",
+    "lint": "eslint ./src/**/*.js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FADL285/Sass-Starter-Template-with-Laravel-Mix.git"
+  },
+  "keywords": [
+    "starter app",
+    "webpack",
+    "laravel mix",
+    "mix",
+    "sass",
+    "html",
+    "js"
+  ],
+  "author": "Mohamed Fadl <Mohamed.Fadl2852@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FADL285/Sass-Starter-Template-with-Laravel-Mix/issues"
+  },
+  "homepage": "https://github.com/FADL285/Sass-Starter-Template-with-Laravel-Mix#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  }
+}
