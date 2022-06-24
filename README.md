@@ -1,2 +1,5 @@
 # Sass-Starter-Template-with-Laravel-Mix
-An HTML, Sass, and JS web app starter template using the Laravel Mix (An elegant wrapper around Webpack).
+
+A blazing fast frontend development starter template, bundled using [Laravel Mix](https://laravel-mix.com/).
+
+This template is configured to HTML, Sass, and JavaScript. you can also install Vue and use Vue SFC (preconfigured for this.)
